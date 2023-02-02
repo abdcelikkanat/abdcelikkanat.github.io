@@ -3,7 +3,7 @@ layout: page
 title: NodeSig
 description: NodeSig&#58; Binary Node Embeddings via Random Walk Diffusion
 img: assets/papers/nodesig.png
-importance: -3
+importance: -4
 category: work
 ---
 
@@ -13,7 +13,7 @@ As the scale of networks increases, most of the widely used learning-based graph
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/nodesig/random_walks.png" title="example image" class="img-fluid rounded" %}
+        {% include figure.html path="assets/projects/nodesig/random_walks.png" title="nodesig" class="img-fluid rounded" %}
     </div>
 </div>
 

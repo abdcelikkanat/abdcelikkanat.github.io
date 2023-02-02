@@ -3,7 +3,7 @@ layout: page
 title: MKernelNE
 description: Multiple Kernel Representation Learning on Networks<br>&nbsp;
 img: assets/papers/mkernelne.png
-importance: -2
+importance: -3
 category: work
 ---
 
@@ -13,7 +13,7 @@ Learning representations of nodes in a low dimensional space is a crucial task w
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/mkernelne/mkernelne.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.html path="assets/projects/mkernelne/mkernelne.jpg" title="mkernelne" class="img-fluid rounded" %}
     </div>
 </div>
 

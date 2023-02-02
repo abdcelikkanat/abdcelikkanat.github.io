@@ -3,7 +3,7 @@ layout: page
 title: EFGE
 description: Exponential Family Graph Embedding<br>&nbsp;
 img: assets/papers/efge.png
-importance: -1
+importance: -2
 category: work
 ---
 
@@ -12,21 +12,21 @@ We emphasize on exponential family distributions to capture rich interaction pat
 
 <div class="row row-no-gutters">
     <div class="col-sm-6 mt-3">
-        {% include figure.html path="assets/projects/efge/dolphins_2comm_eigen-1.jpg" title="example image" class="img-fluid" %}
+        {% include figure.html path="assets/projects/efge/dolphins_2comm_eigen-1.jpg" title="dolphins_network" class="img-fluid" %}
         <div style="text-align:center; font-weight:bolder;">Dolphins Network</div>
     </div>
     <div class="col-sm-6 mt-3">
-        {% include figure.html path="assets/projects/efge/dolphins_method1_dim=2_eigen-1.jpg" title="example image" class="img-fluid" %}
+        {% include figure.html path="assets/projects/efge/dolphins_method1_dim=2_eigen-1.jpg" title="bernouilli" class="img-fluid" %}
         <div style="text-align:center; font-weight:bolder;">EFGE-Bern</div>
     </div>
 </div>
 <div class="row row-no-gutters">
     <div class="col-sm-6 mt-3">
-        {% include figure.html path="assets/projects/efge/dolphins_method2_dim=2_eigen-1.jpg" title="example image" class="img-fluid" %}
+        {% include figure.html path="assets/projects/efge/dolphins_method2_dim=2_eigen-1.jpg" title="poisson" class="img-fluid" %}
         <div style="text-align:center; font-weight:bolder;">EFGE-Pois</div>
     </div>
     <div class="col-sm-6 mt-3">
-        {% include figure.html path="assets/projects/efge/dolphins_method4_exp_dim=2_eigen-1.jpg" title="example image" class="img-fluid" %}
+        {% include figure.html path="assets/projects/efge/dolphins_method4_exp_dim=2_eigen-1.jpg" title="normal_with_exp" class="img-fluid" %}
         <div style="text-align:center; font-weight:bolder;">EFGE-Norm</div>
     </div>
 </div>

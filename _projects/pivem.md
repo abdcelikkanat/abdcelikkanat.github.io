@@ -3,7 +3,7 @@ layout: page
 title: PiVeM
 description: Piecewise-Velocity Model for Learning Continuous-time Dynamic Node Representations
 img: assets/papers/pivem.gif
-importance: -4
+importance: -5
 category: work
 ---
 
