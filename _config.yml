@@ -13,7 +13,7 @@ footer_text: Updated on 1 February 2023
 keywords: abdulkadir celikkanat, graph, network, graph representation learning, embedding, representation, random walks  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: /assets/img/abdulkadir.jpg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: abdulkadir.jpg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://abdcelikkanat.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -38,7 +38,7 @@ repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-s
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -104,7 +104,7 @@ contact_note: >
 google_analytics: G-158DQ81MD7 # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
-google_site_verification: 351862698 # your google-site-verification ID (Google Search Console)
+google_site_verification: 4468288818 # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
