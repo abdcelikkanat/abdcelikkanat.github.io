@@ -3,7 +3,7 @@ layout: page
 title: GraSSP
 description: Continuous-time Graph Representation with Sequential Survival Process
 img: assets/papers/pivem.gif
-importance: -7
+importance: -6
 category: work
 ---
 
