@@ -41,4 +41,4 @@ An implementation of the project in Python can be reached at the [Github](https:
 
 [//]: # (---)
 ##### **References**
-A. Çelikkanat, N. Nakis and M. Mørup, [Continuous-time Graph Representation with Sequential Survival Process](.), Proceedings of the AAAI Conference on Artificial Intelligence. 2024.
+A. Çelikkanat, N. Nakis and M. Mørup, [Continuous-time Graph Representation with Sequential Survival Process](https://ojs.aaai.org/index.php/AAAI/article/view/28995), Proceedings of the AAAI Conference on Artificial Intelligence. 2024.

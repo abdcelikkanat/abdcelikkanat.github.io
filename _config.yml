@@ -6,11 +6,11 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Abdulkadir
 middle_name:
 last_name: Çelikkanat
-email: abce@dtu.dk
+email: abce@cs.aau.dk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website of Abdulkadir Çelikkanat.
 footer_text: 
-keywords: abdulkadir celikkanat, graph, network, graph representation learning, embedding, representation, random walks  # add your own keywords or leave empty
+keywords: abdulkadir celikkanat, graph, network, graph representation learning, embedding, representation, random walks, dna, genome foundation models  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: abdulkadir.jpg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -162,7 +162,7 @@ collections:
     permalink: /projects/:path/
 
 news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 4 # leave blank to include all the news in the `_news` folder
+news_limit: 8 # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

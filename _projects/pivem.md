@@ -27,7 +27,7 @@ We propose the **Piecewise-Velocity Model (PiVeM)** for the representation of co
     </div>
 </div>
 <div class="caption">
-Comparisons of the ground truth and learned representations in two-dimensional space for the Synthetic(π) symbol.
+Comparisons of the ground truth and learned representations in two-dimensional space for the Synthetic(π) dataset.
 </div>
 
 ##### **Code**

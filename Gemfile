@@ -21,3 +21,7 @@ group :other_plugins do
     gem 'httparty'
     gem 'feedjira'
 end
+
+gem "faraday-retry", "~> 2.2"
+
+gem "observer", "~> 0.1.2"
