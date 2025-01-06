@@ -8,10 +8,10 @@ layout: default
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
-        {{ site.title }}
+        {% comment %}{{ site.title }}{% endcomment %}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    {% comment %}<p class="desc">{{ page.subtitle }}</p>{% endcomment %}
   </header>
 
   <article>
@@ -20,7 +20,8 @@ layout: default
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% comment %}{% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}{% endcomment %}
+            {% assign profile_image_class = 'img-fluid rounded-circle' %}
           {% else %}
             {% assign profile_image_class = 'img-fluid z-depth-1
       rounded' %}
@@ -35,19 +36,28 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
+        <!-- Social -->
+        {% if page.social %}
+          <div class="social">
+            <div class="contact-icons">{% include social.liquid %}</div>
+          </div>
+        {% endif %}
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix" style="text-align: justify">{{ content }}</div>
 
     <!-- News -->
+    <div id="my_news_area">
     {% if page.news and site.announcements and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
+    </div>
 
+    {% comment %}
     <!-- Latest posts -->
     {% if site.latest_posts and site.latest_posts.enabled %}
       <h2>
@@ -55,7 +65,9 @@ layout: default
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
+    {% endcomment %}
 
+    {% comment %}
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
@@ -63,8 +75,10 @@ layout: default
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
+    {% endcomment %}
 
     <!-- Social -->
+    {% comment %}
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
@@ -73,8 +87,10 @@ layout: default
       </div>
     {% endif %}
 
+
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
+    {% endcomment %}
   </article>
 </div>
