@@ -1,0 +1,1 @@
+User-agent: * Disallow: Sitemap: https://abdcelikkanat.github.io/sitemap.xml
