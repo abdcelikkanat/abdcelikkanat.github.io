@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The works, [PiVeM](./projects/pivem) and [SLIM](http://arxiv.org/abs/2301.09507) have been selected for parallel talks to [IC2S2 2023](https://www.ic2s2.org/)!
+The works, [PiVeM](../projects/pivem) and [SLIM](http://arxiv.org/abs/2301.09507) have been selected for parallel talks to [IC2S2 2023](https://www.ic2s2.org/)!

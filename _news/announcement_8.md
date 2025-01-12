@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on continuous-time graphs, [GraSSP](https://ojs.aaai.org/index.php/AAAI/article/view/28995), was accepted to AAAI24!
+Our paper on continuous-time graphs, [GraSSP](../projects/grassp), was accepted to AAAI24!
