@@ -29,7 +29,7 @@
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
         {% else %}
-          {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
+          {% assign entry_path = entry.preview | prepend: '/assets/project_previews/' %}
           {%
             include figure.liquid
             loading="eager"
@@ -45,7 +45,7 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-10{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
@@ -237,18 +237,24 @@
         {% if entry.poster contains '://' %}
           <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
         {% else %}
-          <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
+          <a href="{{ entry.poster | prepend: '/assets/posters/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
         {% endif %}
       {% endif %}
       {% if entry.slides %}
         {% if entry.slides contains '://' %}
           <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
         {% else %}
-          <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+          <a href="{{ entry.slides | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
         {% endif %}
       {% endif %}
       {% if entry.website %}
-        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Project Website</a>
+      {% endif %}
+      {% if entry.link %}
+        <a href="{{ entry.link }}" class="btn btn-sm z-depth-0" role="button">Link</a>
+      {% endif %}
+      {% if entry.status %}
+          <div class="paper-status">{{  entry.status  }}</div>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
