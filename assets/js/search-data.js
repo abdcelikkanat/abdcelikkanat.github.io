@@ -515,6 +515,11 @@ ninja.data = [{
           description: "Revisiting K-mer Profile for Effective and Scalable Genome Representation Learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/revisitingkmers/";
+            },},{id: "projects-uncertaingen",
+          title: 'UncertainGen',
+          description: "UncertainGen&amp;#58; Scalable Uncertainty-Aware Representation Learning of DNA Sequences",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/uncertaingen/";
             },},{
         id: 'social-email',
         title: 'email',
